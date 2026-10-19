@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mona Hamdane - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header { text-align: left; }
+        header img { border-radius: 50%; }
+        h1 { color: #1a3c6e; margin-bottom: 5px; }
+        h2 , dt { color: #1a3c6e; border-bottom: 2px solid #1a3c6e; padding-bottom: 4px; }
+        h3 {color: #333;
+            font-size: 14px;
+            }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Collapses borders into a single line */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(195, 208, 215);
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Personal Information -->
+  <header>
+    <img src="Lugat.jpeg" alt="Mona" width="150" height="180" style="float: right; margin-left: 20px; border-radius: 8px;">
+    <h1>Mona Hamdane</h1>
+    <p>
+    <p>
+      Email: <a href="mailto:mona.hamdane20@gmail.com">mona.hamdane20@gmail.com</a><br>
+      Phone: <a href="tel:+905376894875">+90 537 689 48 75</a> | <a href="tel:+905510029305">+90 551 002 93 05</a><br><img src="loc.png" alt="location Logo" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">
+      Location: Ankara, Türkiye<br>
+       <a href="https://www.linkedin.com/in/mona-hamdane-a238682b4/" >
+        <img src="LinkedIn.png" alt="LinkedIn" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">linkedin.com/in/mona-hamdane-a238682b4</a><br>
+      <img src="github.png" alt="GitHub Logo" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">
+      <a href="https://github.com/MonaH07" >github.com/MonaH07</a>
+    </p>
+        
+  </header>
+  <hr>
+
+  <!-- Career Objective -->
+  <h2>Career Objective</h2>
+  <p>Software Engineering undergraduate at Ankara Bilim University with project experience in machine learning, recommendation systems, and programming language implementation. I enjoy turning theory into working, well-engineered software, with a growing focus on data-driven applications. Multilingual and internationally minded, I am looking for an internship where I can contribute to a collaborative team and keep learning.</p>
+
+  <!-- Education -->
+  <h2>Education History</h2>
+  <dl>
+ 
+    <dt><strong>University Section</strong></dt>
+   <ol>
+    <dd><li> Preparatory - Medipol Ankara University (2023-2024)</li></dd>
+    <dd><li> SAT - Math 720 (Spring 2024)</li></dd>
+    <dd><li>Bachelor in Software Engineering - Ankara Science University (2024-present)</li></dd>
+      </ol>
+  <dt>Relevant Courses</dt>
+
+    <dd><ul style="text-indent: 40px; margin: 0;">Database | Machine learning | Web Design | Embedded Systems | Operating Systems | Digital Design | Automata Theory | Programming Languages | Data Mining | Data Science | Data Structures in C++ | Algorithms and Programming in Java | Object-Oriented Programming in Java | Software Engineering </ul><dd>
+    </dl>
+  <!-- Experience / Projects -->
+  <h2>Work &amp;Project Experience</h2>
+  <!-- Internship -->
+<h2>Experience</h2>
+
+<h3>Data Science Intern | Internmo <em>Remote · Sep 2026 – Present</em></h3>
+<ul>
+  <li>Building an end-to-end analytics solution on Zomato operational data, covering data cleaning and analysis with Python (Pandas, NumPy) and SQL.</li>
+  <li>Creating data visualizations with Matplotlib and Seaborn, and Power BI dashboards to communicate business insights.</li>
+  <li>Developing predictive models for delivery time estimation and customer churn to support data-driven business decisions.</li>
+</ul>
+<p><strong>Tech:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn, Power BI</p>
+
+<h2>Projects</h2>
+
+    <dl>
+        <dt>Content-Based Movie Recommendation System <small><i>Data Warehousing & Mining Course Project (Team of 3)</i></small></dt>
+        <dd>
+          <li>Built an item-to-item movie recommender on 34,886 Wikipedia plot records, cleaning the data to 24,959 films through genre normalization, text lemmatization, and long-tail filtering.</li>
+          <li>Engineered a hybrid feature space combining 10,000-dimension TF-IDF plot vectors (unigrams and bigrams) with multi-hot genre encoding, using weighted L2-normalized concatenation and on-demand cosine similarity (sub-second queries).</li>
+          <li>Evaluated with Precision@5, Recall@5, and MAP@5 on 1,000 held-out queries, achieving a 6.8x lift over a random baseline, and analyzed the limits of genre-overlap relevance.</li>
+        </dd>
+        <h3><strong>Tech:</strong> Python, scikit-learn, NumPy, SciPy, NLTK</h3>
+
+    <dt>Multi-Class Classification Pipeline <small><i> Machine Learning Course Assignment</i></small></dt>
+    <dd>
+          <li>Built an end-to-end supervised learning pipeline for a 3-class classification problem (2,250 training samples, 4 features), including a reproducible preprocess.py script that cleaned the raw test data for inference.</li>
+          <li>Identified and handled data-quality issues in the raw dataset without being told what they were.</li>
+          <li>Trained and compared candidate models, selected the best-performing one, and exported it for automated grading on a held-out test set, ranked against the class by composite Accuracy and Macro F1.</li>
+    </dd>
+        <h3><strong>Tech:</strong> Python, scikit-learn, pandas, NumPy</h3>
+
+    <dt>MiniLang: Interpreter for a Turkish-Keyword Programming Language <small><i>Programming Languages Course</i> </small></dt>
+    <dd><li>Extended the EBNF grammar of a small interpreted language to use Turkish keywords (<span lang="tr">tanım, yaz, eğer/değilse, doğruyken</span>) and Turkish characters in identifiers, and designed a new <span lang="tr">dön</span> for-loop construct.</li>
+          <li>Implemented the lexer (tokenization, Unicode identifier handling) and a recursive-descent parser that builds an abstract syntax tree for expressions and statements, with operator precedence for logical, equality, comparison, and arithmetic operators.</li>
+          <li>Added for-loop execution to a tree-walking interpreter with scoped variable environments, and validated the pipeline against an automated test suite of sample programs.</li></dd>
+    <h3><strong>Tech:</strong> Java, EBNF, recursive-descent parsing, AST</h3>
+
+    <dt>Minimum-Height Binary Search Tree in C++ <small><i> Data Structures Course Assignment</i></small></dt>
+    <dd><li>Implemented a dynamic Binary Search Tree in C++ that builds a minimum-height (balanced) tree from N user-supplied integers by sorting the input and recursively inserting median elements, which avoids the O(N)-height tree that naive insertion of sorted input produces.</li>
+          <li>Wrote all four traversals (in-order, pre-order, post-order, level-order) iteratively with explicit stacks and queues instead of recursion, each running in O(N) time.</li>
+          <li>Documented the algorithms with pseudocode and complexity analysis (O(N log N) construction) and handled edge cases such as duplicates, single-element input, and invalid input.</li>
+    </dd>
+        <h3><strong>Tech:</strong> C++, STL (std::sort, stack, queue), pointer-based data structures</h3>
+
+</dl>
+<!-- Certifications -->
+  <h2>Certifications &amp; Courses</h2>
+<table>
+  <tr>
+    <th>Certificate / Course</th>
+    <th>Provider</th>
+    <th>Period</th>
+    <th>Details</th>
+  </tr>
+
+  <!-- Technical -->
+  <tr>
+    <td colspan="4" style="background-color: #dce6f5; font-weight: bold;">Technical</td>
+  </tr>
+  <tr>
+    <td>Data Science Certificate</td>
+    <td>Intermo</td>
+    <td>Fall 2026</td>
+    <td>Demonstrated proficiency in fundamental data science concepts through certified assessments and complementary independent coursework.</td>
+  </tr>
+  <tr>
+    <td>The Ultimate C++ Series </td>
+    <td>Programming with Mosh</td>
+    <td>Fall 2025</td>
+    <td>12-hour C++ programming course covering programming fundamentals, object-oriented programming, pointers, memory management, and advanced C++ concepts.</td>
+  </tr>
+  
+
+  <!-- Business -->
+  <tr>
+    <td colspan="4" style="background-color: #dce6f5; font-weight: bold;">Business</td>
+  </tr>
+  <tr>
+    <td>BIT Course Training</td>
+    <td>BIT</td>
+    <td>Summer 2026</td>
+    <td>virtual training in network marketing fundamentals</td>
+  </tr>
+
+  <!-- Teaching method-->
+   <tr>
+    <td colspan="4" style="background-color: #dce6f5; font-weight: bold;">Teaching method</td>  </tr>
+    <td>Training of SD math</td>
+    <td>Sulaiman Diab</td>
+    <td>Summer 2023</td>
+    <td>Creative multiplication & my fingers think O-1</td>
+
+  <tr>
+    <td colspan="4" style="background-color: #dce6f5; font-weight: bold;">First Aid </td>
+  </tr>
+  <!-- 1st Aid-->
+   <tr>
+    <td>First Aid </td>
+    <td>Disaster and community services</td>
+    <td>Summer 2026</td>
+    <td>Türk Kızılay tarafından YTB Ankara Ofisinde düzenlelenen İlk Yardım Semineri'ne </td>
+  </tr>
+  
+  <tr>
+    <td>First Aid </td>
+    <td>PCMET(Tunisia)</td>
+    <td>Summer 2023</td>
+    <td>Training in 1st aid</td>
+  </tr>
+  
+  <!-- Competitions -->
+  <tr>
+    <td colspan="4" style="background-color: #dce6f5; font-weight: bold;">Competitions</td>
+  </tr>
+  <tr>
+    <td>Math Marathon</td>
+    <td>Tunivision</td>
+    <td>Winter 2021</td>
+    <td>1st place math marathon</td>
+  </tr>
+  <tr>
+    <td>Math Marathon</td>
+    <td>Tunivision</td>
+    <td>Winter 2020</td>
+    <td>1st place math marathon</td>
+  </tr>
+  
+  <tr>
+    <td>Math Rally </td>
+    <td>ATMNT CPESFP</td>
+    <td>Spring 2018</td>
+    <td>Participated in a team problem-solving competition and won 1st place</td>
+  </tr>
+</table>
+
+  <!-- Languages -->
+  <h2>Language Skills</h2>
+  <table>
+    <tr><th>Language</th><th>Level</th></tr>
+    <tr><td>Arabic</td><td>Native</td></tr>
+    <tr><td>French</td><td> Professional proficiency</td></tr>
+    <tr><td>English</td><td> Professional proficiency</td></tr>
+    <tr><td>Turkish</td><td>Elementary</td></tr>
+  </table>
+    
+    </body>
+</html>
